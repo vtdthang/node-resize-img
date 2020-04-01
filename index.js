@@ -30,6 +30,6 @@ server.use('/upload', router);
 //     resize('nodejs.png', format, width, height).pipe(res);
 // });
 
-server.listen(8000, () => {
+server.listen(3000, () => {
     console.log("Server is running");
 });
